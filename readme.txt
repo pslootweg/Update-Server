@@ -1,6 +1,6 @@
 Update Server Script(s)
 
-These scripts were created to use the out-of-the-box installation of Raspbian and OS-X 10.11.4 without installting additional packages.
+These scripts were created to use the out-of-the-box installation of Raspbian and OS-X 10.11.4 without installing additional packages, or configuration changes.
 
 Usage:
 
