@@ -6,7 +6,7 @@ Usage:
 
 . run-update.sh
 
-This will run the perform-update.sh using a SSH session, which will patch the OS, then install and configure UFW, before finally issueing the uptime command.
+This will run the perform-update.sh using a SSH session, which will patch the OS, then install and configure UFW, reboot - before finally issuing the uptime command.
 
 You will be required to enter the SSH password twice during the running of this script.
 
