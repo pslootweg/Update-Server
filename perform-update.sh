@@ -5,8 +5,8 @@ export DEBIAN_FRONTEND=noninteractive
 
 # Patch server
 sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get autoremove
+sudo apt-get -y upgrade
+sudo apt-get -y autoremove
 
 # Install Uncomplicated Firewall
 sudo apt-get -y install ufw
@@ -22,3 +22,5 @@ sudo ufw --force enable
 
 # Reboot
 sudo reboot
+
+sleep 10
